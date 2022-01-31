@@ -1,0 +1,18 @@
+body {
+    font-size: 12px;
+    background: url(' https://cdn.jsdelivr.net/gh/efu00/img/blog_img/bg.png ') no-repeat 0 0;
+    background-size: cover;
+    background-attachment: fixed
+
+ /*普通的，电脑端图片背景*/
+
+}
+@media(max-width: 768px) {
+    body {
+        background-image:url(' https://cdn.jsdelivr.net/gh/efu00/img/blog_img/bg-m.png ');
+
+ /*用于手机端图片背景，如果图片相同需要特殊优化*/
+
+    }
+}
+
